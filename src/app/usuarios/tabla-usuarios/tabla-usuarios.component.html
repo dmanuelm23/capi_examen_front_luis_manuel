@@ -1,0 +1,37 @@
+<div class="container">
+  <h1>Lista de usuarios</h1>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Correo</th>
+        <th scope="col">Fecha de nacimiento</th>
+        <th scope="col">Edad</th>
+        <th scope="col">Dirección</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let usuario of usuarios">
+        <td>{{ usuario.id }}</td>
+        <td>{{ usuario.name }}</td>
+        <td>{{ usuario.email }}</td>
+        <td>{{ usuario.fecha_nacimiento }}</td>
+        <td>{{ usuario.edad }}</td>
+        <td>
+          {{
+            usuario.domicilio +
+              " " +
+              usuario.numero_exterior +
+              " " +
+              usuario.colonia +
+              " " +
+              usuario.cp +
+              " " +
+              usuario.ciudad
+          }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
