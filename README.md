@@ -7,4 +7,4 @@ Este proyecto esta generado con [Angular CLI](https://github.com/angular/angular
 - Correr en consola __npm install__
 - Correr __ng serve__ y navegar en `http://localhost:4200/`
 - La aplicación lo redirigira a la ruta `http://localhost:4200/users`
-- En el archivo del proyecto en  ruta `src\app\servicios\api\api.service.ts` modificar la línea 17 por la url principal que __genere php artisan serve__ de la api de laravel,  guarde cambios y el proyecto se actualizara autonamicamente
+- En el archivo del proyecto en  ruta `src/app/servicios/api/api.service.ts` modificar la línea 17 por la url principal que __genere php artisan serve__ de la api de laravel,  guarde cambios y el proyecto se actualizara autonamicamente
