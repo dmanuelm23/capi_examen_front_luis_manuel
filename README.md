@@ -1,28 +1,10 @@
-# CapiExamenFrontLuisManuel
+# Angular usuarios
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+Este proyecto esta generado con [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2., node v16.13.0 y npm 8.1.0
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-"# capi_examen_front_luis_manuel" 
+## Como usar
+- Clonar el repositorio con  __git clone__ `https://github.com/dmanuelm23/capi_examen_front_luis_manuel.git`
+- Correr en consola __npm install__
+- Correr __ng serve__ y navegar en `http://localhost:4200/`
+- La aplicación lo redirigira a la ruta `http://localhost:4200/users`
+- En el archivo del proyecto en  ruta `src\app\servicios\api\api.service.ts` modificar la línea 17 por la url principal que __genere php artisan serve__ de la api de laravel,  guarde cambios y el proyecto se actualizara autonamicamente
