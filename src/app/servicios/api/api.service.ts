@@ -11,9 +11,10 @@ import { Observable } from 'rxjs';
 })
 export class ApiService {
 
-  //url:string = "http://capi_examen_back_luis_manuel.test:8080/"
+  
+  //Cambiar la URL que genere su servidor local de laravel
 
-  url:string = "http://localhost:8000/"
+  url:string = "http://capi_examen_back_luis_manuel.test/"
 
   constructor(private http:HttpClient) { }
 
