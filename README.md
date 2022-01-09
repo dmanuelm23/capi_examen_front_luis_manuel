@@ -1,4 +1,4 @@
-# Angular usuarios
+# Angular Usuarios
 
 Este proyecto esta generado con [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2., node v16.13.0 y npm 8.1.0
 
